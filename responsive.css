@@ -1,0 +1,42 @@
+@media (max-width: 1000px ) {
+    .profile {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 670px ) {
+    .profile {
+        width: 100%;
+      
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .footers {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .footers {
+    width: 100%;
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+  
+}
